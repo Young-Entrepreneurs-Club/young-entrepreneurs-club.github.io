@@ -19,6 +19,9 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Link href='/board' passHref={true}>
               <Nav.Link>Board</Nav.Link>
             </Link>
+            <Link href='/resources' passHref={true}>
+              <Nav.Link>Resources</Nav.Link>
+            </Link>
             <Link href='join' passHref={true}>
               <Nav.Link>Join</Nav.Link>
             </Link>

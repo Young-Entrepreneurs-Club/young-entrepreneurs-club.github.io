@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@900&display=swap');
+
+.startup {
+  transition: 0.3s;
+}
+
+.startup:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px
+}
