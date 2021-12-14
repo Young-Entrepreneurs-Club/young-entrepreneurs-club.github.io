@@ -10,24 +10,26 @@ const Home: NextPage = () => {
       <Head>
         <title>Young Founders Club</title>
         <meta name='description' content='Young Founders Club' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
 
-        <Row
-          style={{height: '60vh'}}
-          className='align-items-center'
-        >
-          <Col>
-            <h1 className={styles.title}>Young Founders Club</h1>
-            <p>
-              Learn about startups, generate ideas and do startup pitches, and
-              more!
-            </p>
-          </Col>
-          <Col className='d-flex align-items-center justify-content-center'>
-          <Image src='/startup_icon.png' width={300} height={300} alt='startup icon' className={styles.startup} />
-          </Col>
-        </Row>
+      <Row style={{ height: '60vh' }} className='align-items-center'>
+        <Col>
+          <h1 className={styles.title}>Young Founders Club</h1>
+          <p>
+            Learn about startups, generate ideas, startup pitches, and
+            more!
+          </p>
+        </Col>
+        <Col className='d-flex align-items-center justify-content-center'>
+          <Image
+            src='/startup_icon.png'
+            width={300}
+            height={300}
+            alt='startup icon'
+            className={styles.startup}
+          />
+        </Col>
+      </Row>
     </Container>
   );
 };
