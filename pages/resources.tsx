@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Col } from 'react-bootstrap';
 import Head from 'next/head';
 
 const Resources: React.FC = () => {
@@ -11,6 +11,11 @@ const Resources: React.FC = () => {
       </Head>
       <Container>
         <h1>Resources</h1>
+        <Col>
+          <Col className='m-4'>
+            <h2>Presentations</h2>
+          </Col>
+        </Col>
       </Container>
     </>
   );

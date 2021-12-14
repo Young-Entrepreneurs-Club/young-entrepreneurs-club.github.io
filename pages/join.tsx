@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import Head from 'next/head';
 
 const Join: React.FC = () => {
@@ -17,7 +17,9 @@ const Join: React.FC = () => {
             width='640'
             height='995'
             frameBorder='0'
-          >Loading...</iframe>
+          >
+            Loading...
+          </iframe>
         </div>
       </Container>
     </>

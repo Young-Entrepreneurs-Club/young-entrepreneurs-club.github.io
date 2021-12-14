@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <meta name='description' content='Young Founders Club' />
       </Head>
 
-      <Row style={{ height: '60vh' }} className='align-items-center'>
+      <Row style={{ height: '85vh' }} className='align-items-center'>
         <Col>
           <h1 className={styles.title}>Young Founders Club</h1>
           <p>
@@ -30,6 +30,18 @@ const Home: NextPage = () => {
           />
         </Col>
       </Row>
+
+      <footer className='d-flex flex-row justify-content-between' style={{width: '150px'}}>
+        <a href="https://www.instagram.com/monty_yfc/" target='_blank' rel='noreferrer'>
+          <Image src='/instagram_icon.png' width={40} height={40} alt='Young Founders Club Instagram' />
+        </a>
+        <a href="" target='_blank' rel='noreferrer'>
+          <Image src='/google_classroom_icon.png' width={40} height={40} alt='Young Founders Club Google Classroom' />
+        </a>
+        <a href="https://discord.gg/ybggaQhWhs" target='_blank' rel='noreferrer'>
+          <Image src='/discord_icon.svg' width={40} height={40} alt='Young Founders Club Discord Server' />
+        </a>
+      </footer>
     </Container>
   );
 };
