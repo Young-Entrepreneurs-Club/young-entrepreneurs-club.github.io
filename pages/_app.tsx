@@ -10,17 +10,17 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Navbar>
         <Container>
           <Link href='/' passHref={true}>
-            <Navbar.Brand>NFC</Navbar.Brand>
+            <Navbar.Brand><b>National Founders Club</b></Navbar.Brand>
           </Link>
           <Nav className='ms-auto'>
-            <Link href='/about' passHref={true}>
-              <Nav.Link>About</Nav.Link>
+            <Link href='/team' passHref={true}>
+              <Nav.Link>Team</Nav.Link>
             </Link>
             <Link href='/resources' passHref={true}>
               <Nav.Link>Resources</Nav.Link>
             </Link>
             <Link href='join' passHref={true}>
-              <Nav.Link>Join</Nav.Link>
+              <Nav.Link>Start Chapter!</Nav.Link>
             </Link>
           </Nav>
         </Container>

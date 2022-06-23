@@ -2,15 +2,15 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import Head from 'next/head';
 
-const Join: React.FC = () => {
+const StartAChapter: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Join</title>
-        <meta name='description' content='Join' />
+        <title>Start a Chapter!</title>
+        <meta name='description' content='Start a Chapter' />
       </Head>
       <Container>
-        <h1>Join the club!</h1>
+        <h1>Start a chapter!</h1>
         <div className='d-flex justify-content-center'>
           <iframe
             src='https://docs.google.com/forms/d/e/1FAIpQLSdWjbp7f9xaNFohJUEGDyWbvfybFf3D1G5DBZlcXYd-kpjhDg/viewform?embedded=true'
@@ -26,4 +26,4 @@ const Join: React.FC = () => {
   );
 };
 
-export default Join;
+export default StartAChapter;
