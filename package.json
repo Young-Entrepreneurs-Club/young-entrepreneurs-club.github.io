@@ -1,5 +1,5 @@
 {
-  "name": "yfc",
+  "name": "nfc",
   "private": true,
   "scripts": {
     "dev": "next dev",
