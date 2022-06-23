@@ -1,6 +1,8 @@
 # National Founders Club Website
 
-A club for people interested in entrepreneurship
+A club for people interested in entrepreneurship.
+
+Website: nationalfoundersclub.org
 
 How to start in development
 - Run `npm run dev`
