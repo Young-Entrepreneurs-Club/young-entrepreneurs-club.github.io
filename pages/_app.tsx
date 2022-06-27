@@ -19,8 +19,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Link href='/resources' passHref={true}>
               <Nav.Link>Resources</Nav.Link>
             </Link>
-            <Link href='join' passHref={true}>
-              <Nav.Link>Start Chapter!</Nav.Link>
+            <Link href='/start-a-chapter' passHref={true}>
+              <Nav.Link>Start A Chapter!</Nav.Link>
             </Link>
           </Nav>
         </Container>

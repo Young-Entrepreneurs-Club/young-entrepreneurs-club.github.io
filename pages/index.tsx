@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import DesignedButton from '../components/DesignedButton';
+import InformationSection from '../components/InformationSection';
 
 const Home: NextPage = () => {
     return (
@@ -20,8 +21,8 @@ const Home: NextPage = () => {
                         <p className={styles.description}>
                             Learn about entrepreneurship and startups, generate
                             ideas, practice startup pitches, and more!
-              </p>
-              <DesignedButton text='Start Chapter!' />
+                        </p>
+                        <DesignedButton text='Start A Chapter!' />
                     </Col>
                     <Col className='d-flex align-items-center justify-content-center'>
                         <Image
@@ -34,8 +35,40 @@ const Home: NextPage = () => {
                     </Col>
                 </Row>
 
+                <InformationSection
+                    headingText='Learn about entrepreneurship'
+                    descriptionText='Learn about the basics of entrepreneurship and how to think like an entrepreneur.'
+                    image='/entrepreneurship.png'
+                    imageAlt='entrepreneurship'
+                    flip={true}
+                />
+
+                <InformationSection
+                    headingText='Business Planning'
+                    descriptionText='Generate innovative ideas and all the components that go into a successful business.'
+                    image='/business_plan.png'
+                    imageAlt='business planning'
+                    flip={false}
+                />
+
+                <InformationSection
+                    headingText='Mock Startup Pitches'
+                    descriptionText='Get real-world experience by practicing startup pitches.'
+                    image='/startup_pitch.png'
+                    imageAlt='mock startup pitches'
+                    flip={true}
+                />
+
+                <InformationSection
+                    headingText='Guest Speakers'
+                    descriptionText='Learn from successful entrepreneurs and industry leaders who have years of experience.'
+                    image='/guest_speaker.png'
+                    imageAlt='guest speakers'
+                    flip={false}
+                />
+
                 <footer
-                    className='d-flex flex-row justify-content-between'
+                    className='d-flex flex-row justify-content-between mb-3'
                     style={{ width: '100px' }}
                 >
                     <a
