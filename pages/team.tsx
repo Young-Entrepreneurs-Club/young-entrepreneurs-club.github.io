@@ -23,7 +23,17 @@ const Team: React.FC = () => {
                         height={300}
                         alt='Team'
                     />
-                    <h2>Founder + National President</h2>
+                    <h2>Co-Founder + President</h2>
+                </div>
+                <div className='d-flex align-items-center justify-content-around mt-5'>
+                    <Image
+                        className={styles.azam}
+                        src='/ekam.jpeg'
+                        width={310}
+                        height={300}
+                        alt='Team'
+                    />
+                    <h2>Co-Founder + Vice President</h2>
                 </div>
             </Container>
         </div>
