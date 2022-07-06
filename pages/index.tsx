@@ -11,13 +11,13 @@ const Home: NextPage = () => {
         <div className={styles.background}>
             <Container>
                 <Head>
-                    <title>National Founders Club</title>
-                    <meta name='description' content='National Founders Club' />
+                    <title>Young Entrepreneurs Club</title>
+                    <meta name='description' content='Young Entrepreneurs Club' />
                 </Head>
 
                 <Row style={{ height: '85vh' }} className='align-items-center'>
                     <Col>
-                        <h1 className={styles.title}>National Founders Club</h1>
+                        <h1 className={styles.title}>Young Entrepreneurs Club</h1>
                         <p className={styles.description}>
                             Learn about entrepreneurship and startups, generate
                             ideas, practice startup pitches, and more!
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                             src='/instagram_icon.png'
                             width={40}
                             height={40}
-                            alt='National Founders Club Instagram'
+                            alt='Young Entrepreneurs Club Instagram'
                         />
                     </a>
                     <a
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                             src='/discord_icon.svg'
                             width={40}
                             height={40}
-                            alt='National Founders Club Discord Server'
+                            alt='Young Entrepreneurs Club Discord Server'
                         />
                     </a>
                 </footer>

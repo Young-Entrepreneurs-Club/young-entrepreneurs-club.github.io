@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Navbar>
         <Container>
           <Link href='/' passHref={true}>
-            <Navbar.Brand><b>National Founders Club</b></Navbar.Brand>
+            <Navbar.Brand><b>Young Entrepreneurs Club</b></Navbar.Brand>
           </Link>
           <Nav className='ms-auto'>
             <Link href='/team' passHref={true}>
