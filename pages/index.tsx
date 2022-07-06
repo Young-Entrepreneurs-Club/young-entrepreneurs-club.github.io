@@ -11,18 +11,44 @@ const Home: NextPage = () => {
         <div className={styles.background}>
             <Container>
                 <Head>
-                    <title>Young Entrepreneurs Club</title>
+                    <title>Monty Young Entrepreneurs Club</title>
                     <meta name='description' content='Young Entrepreneurs Club' />
+
+                    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+                    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+                    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+                    <link rel="manifest" href="/site.webmanifest"/>
+                    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+                    <meta name="msapplication-TileColor" content="#da532c"/>
+                    <meta name="theme-color" content="#ffffff" />
+                    
+                    <meta name='title' content='Montgomery Young Entrepreneurs Club' />
+                <meta
+                    name='description'
+                    content='Monty Young Entrepreneurs Club is a community of young people who are interested in becoming entrepreneurs and starting their own business. We are a group of people who are passionate about starting their own business and are looking to share their knowledge and experience with others. This club was founded by Azam Ahmed and Ekam Bhatia in 2022 for Montgomery High School. Monty Young Entrepreneurs Club. Montgomery Young Entrepreneurs Club. Monty Young Entrepreneurs Club. Montgomery Young Entrepreneurs Club. Monty Young Entrepreneurs Club. Montgomery Young Entrepreneurs Club. Monty Young Entrepreneurs Club. Montgomery Young Entrepreneurs Club. Monty Young Entrepreneurs Club. Montgomery Young Entrepreneurs Club. The founders of Montgomery Young Entrepreneurs Club are Azam Ahmed and Ekam Bhatia.'
+                />
+                <meta
+                    name='keywords'
+                    content='monty, montgomery, entrepreneurship, founder, young entrepreneurs club, montgomery young entrepreneurs club, monty young entrepreneurs club'
+                />
+                <meta name='robots' content='index, follow' />
+                <meta
+                    httpEquiv='Content-Type'
+                    content='text/html; charset=utf-8'
+                />
+                <meta name='language' content='English' />
                 </Head>
 
                 <Row style={{ height: '85vh' }} className='align-items-center'>
                     <Col>
-                        <h1 className={styles.title}>Young Entrepreneurs Club</h1>
+                        <h1 className={styles.title}>Monty Young Entrepreneurs Club</h1>
                         <p className={styles.description}>
                             Learn about entrepreneurship and startups, generate
                             ideas, practice startup pitches, and more!
                         </p>
-                        <DesignedButton text='Start A Chapter!' />
+                        <a href="https://forms.gle/EY52ZZaj6XxY3uPT8" className="text-decoration-none" target="_blank" rel="noreferrer">
+                        <DesignedButton text='Join Now!' />
+                        </a>
                     </Col>
                     <Col className='d-flex align-items-center justify-content-center'>
                         <Image
@@ -72,7 +98,7 @@ const Home: NextPage = () => {
                     style={{ width: '100px' }}
                 >
                     <a
-                        href='https://www.instagram.com/monty_nfc/'
+                        href='https://www.instagram.com/monty_yec/'
                         target='_blank'
                         rel='noreferrer'
                     >
